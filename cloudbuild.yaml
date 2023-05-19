@@ -1,0 +1,12 @@
+#config for cloud run
+steps:
+  # Step 1: Build the Docker image with Maven and Firefox dependencies
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["build", "-t", "gcr.io/aroma-gfunc/nextjs-srls", "."]
+
+  # Step 2: Push the Docker image to Google Container Registry (GCR)
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["push", "gcr.io/aroma-gfunc/nextjs-srls"]
+
+options:
+  logging: CLOUD_LOGGING_ONLY
