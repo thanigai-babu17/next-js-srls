@@ -86,7 +86,7 @@ export default function Home() {
 			<section className="hero" style={{ backgroundImage: `url(${BackgroundHero.src})` }}>
 				<div className="container container--pt container--px">
 					<div className="hero__text container--pt">
-						<h1>Coderapper is a Digital Product Design Agency</h1>
+						<h1>This is a Digital Product Design Agency</h1>
 						<p>We are Creative and Professional Digital Agency</p>
 						<a href="" className="cta-btn">
 							Get started
