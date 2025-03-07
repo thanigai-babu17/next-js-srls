@@ -2,11 +2,11 @@
 steps:
   # Step 1: Build the Docker image with Maven and Firefox dependencies
   - name: "gcr.io/cloud-builders/docker"
-    args: ["build", "-t", "gcr.io/serverless-demo-391105/nextjs-srls", "."]
+    args: ["build", "-t", "gcr.io/sonu-shopify/nextjs-srls", "."]
 
   # Step 2: Push the Docker image to Google Container Registry (GCR)
   - name: "gcr.io/cloud-builders/docker"
-    args: ["push", "gcr.io/serverless-demo-391105/nextjs-srls"]
+    args: ["push", "gcr.io/sonu-shopify/nextjs-srls"]
 
 options:
   logging: CLOUD_LOGGING_ONLY
