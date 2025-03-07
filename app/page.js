@@ -113,7 +113,7 @@ export default function Home() {
 							<div className="feature-item__title">Grow your business</div>
 							<div className="feature-item__descrp">
 								The magic wand for success is in figuring out how to bring in the profits and ensure the capacity needed
-								to sustain that growth for posterity.
+								to sustain that growth for posterity
 							</div>
 						</div>
 						<div className="feature-item">
